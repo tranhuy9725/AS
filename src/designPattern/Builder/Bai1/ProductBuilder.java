@@ -6,19 +6,19 @@ public class ProductBuilder implements Builder{
     private String description =  null;
 
     @Override
-    public Builder setName(String name) {
+    public ProductBuilder setName(String name) {
         this.name = name;
         return this;
     }
 
     @Override
-    public Builder setPrice(double price) {
+    public ProductBuilder setPrice(double price) {
         this.price = price;
         return this;
     }
 
     @Override
-    public Builder setDescription(String description) {
+    public ProductBuilder setDescription(String description) {
         this.description = description;
         return this;
     }
