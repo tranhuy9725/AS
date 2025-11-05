@@ -45,4 +45,14 @@ public class User {
                 ", phone='" + phone + '\'' +
                 '}';
     }
+
+    public static class UserBuilder{
+        private String firstName;
+        private String lastName;
+        private int age;
+        private String address;
+        private String phone;
+
+
+    }
 }
